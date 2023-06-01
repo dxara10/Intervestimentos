@@ -61,6 +61,10 @@ def registrarhospede():
 def paginamanager():
     return render_template("paginamanager.html")
 
+@app.route('/sejaatendido')
+def intranet():
+    return render_template("sejaatendido.html")
+
 
 
 
